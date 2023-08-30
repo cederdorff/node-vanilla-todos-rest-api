@@ -1,0 +1,12 @@
+{
+    "name": "node-vanilla-todos-rest-api",
+    "version": "1.0.0",
+    "description": "My Node Fun App for testing 🎉",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --watch app.js"
+    },
+    "author": "Rasmus Cederdorff (RACE)",
+    "license": "ISC"
+}
