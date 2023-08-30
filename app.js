@@ -49,7 +49,7 @@ const app = http.createServer(async (req, res) => {
         let todoToUpdate = todos.find(todo => todo.id === id);
         const todoData = JSON.parse(await getReqData(req));
         todoToUpdate.task = todoData.task;
-        todoToUpdate.complete = todoData.complete;
+        todoToUpdate.completed = todoData.completed;
 
         const todosJSON = JSON.stringify(todos);
         fs.writeFile("data.json", todosJSON);
